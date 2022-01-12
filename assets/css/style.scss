@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ p, h5, h6{
+   margin-bottom: 0;
+ }
+
+.pdf-table {
+  font-family: 'Roboto Slab', serif;
+  padding: 30px 0;
+  padding-bottom: 0;
+  text-transform: capitalize;
+  .wrapper-page {
+    position: relative;
+
+    .top-page {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .qr-code {
+        position: absolute;
+        position: absolute;
+        right: 0;
+        width: 150px;
+        img {
+          width: 100%;
+        }
+      }
+      .title{
+        text-align: center;
+        width: 300px;
+        margin: auto;
+
+        h5{
+          color: rgb(0, 0, 75);
+        }
+      }
+    }
+
+    .middle-info{
+      margin-top: 40px;
+      position: relative;
+      font-family: normal;
+
+      .person-img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        img{
+          width: 100%;
+        }
+      }
+      table{
+        width: 100%;
+        .arabic-tbody{
+          text-align: right;
+        }
+        .maintd{
+          padding: 0;
+        }
+      }
+      .english-table, .arabic-tbody{
+        
+        td{
+          width: 50%;
+          padding: 9px 0;
+          padding-left: 5px;
+          border-bottom: 2px solid #000;
+          font-size: 13px;
+
+          .title{
+            font-weight: bold;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 12px;
+
+          }
+         
+        }
+        tr:last-child{
+          td{
+            border-bottom: 0;
+          }
+        }
+      
+      }
+      .arabic-tbody{
+        td{
+          padding-right: 5px;
+          .title{
+            margin-left: 20px;
+            margin-right: 0;
+   
+          }
+        }
+      }
+
+    }
+
+
+    .notes{
+      margin-top: 10px;
+      td{
+        padding: 40px 20px;
+        width: 50%;
+        border: 2px solid #000;;
+        font-size: 13px;
+        p{
+          line-height: 30px;
+        }
+      }
+      .arabic-td{
+        text-align: right;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+      }
+    }
+
+    .test{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      h5{
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-family: 'Noto Kufi Arabic', sans-serif;
+      }
+      .enh5{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+      }
+    }
+
+    .last-information{
+      table{
+        width: 100%;
+        td{
+          padding: 30px 20px;
+          width: 50%;
+          border: 2px solid #000;;
+          font-size: 13px;
+          ul{
+            margin-bottom: 0;
+            li{
+              margin-bottom: 10px;
+              .info{
+                margin-left: 30px;
+              }
+            }
+          }
+        }
+        .arabic-td{
+          text-align: right;
+          font-family: 'Noto Kufi Arabic', sans-serif;
+          ul{
+            font-size: 13px;
+            li{
+              .info{
+                margin-right: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer{
+      margin-top: 50px;
+      position: relative;
+      .sign{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+        right: 0;
+        border: 2px solid #000;
+      }
+      .medical{
+        margin: auto;
+        width: 360px;
+        // margin-left: 400px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+
+  }
+}

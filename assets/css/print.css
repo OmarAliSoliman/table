@@ -1,0 +1,65 @@
+@media print {
+  @page {
+    /* margin: 3cm !important; */
+  }
+  .top-header,
+  .middle-header,
+  .navbar,
+  footer,
+  .copy {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    font-family: Georgia, ‘Times New Roman’, serif !important;
+  }
+  .top-page .qr-code{
+    width: 100px !important;
+  }
+
+  .pdf-table .wrapper-page .middle-info .person-img{
+    width: 160px !important;
+  }
+
+  .pdf-table .wrapper-page .middle-info{
+    margin-top: 20px;
+  }
+
+  .pdf-table .wrapper-page .middle-info .english-table td, .pdf-table .wrapper-page .middle-info .arabic-tbody td{
+    padding: 5px 0 !important;
+    padding-left: 5px !important;
+  }
+
+  
+  .pdf-table .wrapper-page .middle-info .arabic-tbody td {
+    padding-right: 5px !important;
+  }
+
+  .pdf-table .wrapper-page .notes td{
+    padding: 20px 20px !important;
+  }
+
+  .pdf-table .wrapper-page .notes td p{
+    line-height: 20px !important;
+  }
+  .pdf-table .wrapper-page .test{
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+  }
+  .pdf-table .wrapper-page .last-information table td {
+    padding: 20px 20px !important;
+  }
+  .pdf-table .wrapper-page .last-information table td ul li {
+    margin-bottom: 5px !important;
+  }
+  .pdf-table .wrapper-page .footer{
+    margin-top: 30px !important;
+  }
+  .pdf-table .wrapper-page .footer .sign{
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .pdf-table .wrapper-page .footer .medical{
+    width: 200px !important;
+  }
+}

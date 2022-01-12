@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+p, h5, h6 {
+  margin-bottom: 0;
+}
+
+.pdf-table {
+  font-family: 'Roboto Slab', serif;
+  padding: 30px 0;
+  padding-bottom: 0;
+  text-transform: capitalize;
+}
+
+.pdf-table .wrapper-page {
+  position: relative;
+}
+
+.pdf-table .wrapper-page .top-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pdf-table .wrapper-page .top-page .qr-code {
+  position: absolute;
+  position: absolute;
+  right: 0;
+  width: 150px;
+}
+
+.pdf-table .wrapper-page .top-page .qr-code img {
+  width: 100%;
+}
+
+.pdf-table .wrapper-page .top-page .title {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+.pdf-table .wrapper-page .top-page .title h5 {
+  color: #00004b;
+}
+
+.pdf-table .wrapper-page .middle-info {
+  margin-top: 40px;
+  position: relative;
+  font-family: normal;
+}
+
+.pdf-table .wrapper-page .middle-info .person-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.pdf-table .wrapper-page .middle-info .person-img img {
+  width: 100%;
+}
+
+.pdf-table .wrapper-page .middle-info table {
+  width: 100%;
+}
+
+.pdf-table .wrapper-page .middle-info table .arabic-tbody {
+  text-align: right;
+}
+
+.pdf-table .wrapper-page .middle-info table .maintd {
+  padding: 0;
+}
+
+.pdf-table .wrapper-page .middle-info .english-table td, .pdf-table .wrapper-page .middle-info .arabic-tbody td {
+  width: 50%;
+  padding: 9px 0;
+  padding-left: 5px;
+  border-bottom: 2px solid #000;
+  font-size: 13px;
+}
+
+.pdf-table .wrapper-page .middle-info .english-table td .title, .pdf-table .wrapper-page .middle-info .arabic-tbody td .title {
+  font-weight: bold;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.pdf-table .wrapper-page .middle-info .english-table tr:last-child td, .pdf-table .wrapper-page .middle-info .arabic-tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.pdf-table .wrapper-page .middle-info .arabic-tbody td {
+  padding-right: 5px;
+}
+
+.pdf-table .wrapper-page .middle-info .arabic-tbody td .title {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.pdf-table .wrapper-page .notes {
+  margin-top: 10px;
+}
+
+.pdf-table .wrapper-page .notes td {
+  padding: 40px 20px;
+  width: 50%;
+  border: 2px solid #000;
+  font-size: 13px;
+}
+
+.pdf-table .wrapper-page .notes td p {
+  line-height: 30px;
+}
+
+.pdf-table .wrapper-page .notes .arabic-td {
+  text-align: right;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.pdf-table .wrapper-page .test {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.pdf-table .wrapper-page .test h5 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.pdf-table .wrapper-page .test .enh5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+}
+
+.pdf-table .wrapper-page .last-information table {
+  width: 100%;
+}
+
+.pdf-table .wrapper-page .last-information table td {
+  padding: 30px 20px;
+  width: 50%;
+  border: 2px solid #000;
+  font-size: 13px;
+}
+
+.pdf-table .wrapper-page .last-information table td ul {
+  margin-bottom: 0;
+}
+
+.pdf-table .wrapper-page .last-information table td ul li {
+  margin-bottom: 10px;
+}
+
+.pdf-table .wrapper-page .last-information table td ul li .info {
+  margin-left: 30px;
+}
+
+.pdf-table .wrapper-page .last-information table .arabic-td {
+  text-align: right;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+.pdf-table .wrapper-page .last-information table .arabic-td ul {
+  font-size: 13px;
+}
+
+.pdf-table .wrapper-page .last-information table .arabic-td ul li .info {
+  margin-right: 30px;
+}
+
+.pdf-table .wrapper-page .footer {
+  margin-top: 50px;
+  position: relative;
+}
+
+.pdf-table .wrapper-page .footer .sign {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  border: 2px solid #000;
+}
+
+.pdf-table .wrapper-page .footer .medical {
+  margin: auto;
+  width: 360px;
+}
+
+.pdf-table .wrapper-page .footer .medical img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
